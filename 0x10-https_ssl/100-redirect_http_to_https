@@ -49,3 +49,4 @@ listen http-in
         balance roundrobin
         server 93511-web-01 35.174.209.1:80 check
         server 93511-web-02 35.153.52.94:80 check
+
