@@ -1,0 +1,29 @@
+
+
+When you type "https://www.google.com" in your browser and press Enter, a complex series of events occur behind the scenes. These events include DNS requests, TCP/IP connections, firewall checks, HTTPS/SSL encryption, load balancing, web server handling, application server processing, and database queries. In this blog post, we will explain each of these steps in detail.
+
+1. DNS Request:
+The first step in accessing any website is to translate the domain name (www.google.com) into an IP address. The Domain Name System (DNS) is responsible for this translation. When you type in the URL and press Enter, your browser sends a request to a DNS server to obtain the IP address associated with the domain name. The DNS server returns the IP address for the domain name, allowing your browser to establish a connection to the website.
+
+2. TCP/IP:
+Once your browser has the IP address of the website, it establishes a TCP/IP (Transmission Control Protocol/Internet Protocol) connection to the web server. TCP is responsible for ensuring that data is sent and received correctly and in order, while IP is responsible for routing the data packets to their destination.
+
+3. Firewall:
+Before the connection is established, the firewall on your computer or network may check to ensure that the website is safe to access. The firewall checks whether the website's IP address is allowed to be accessed and whether any malicious code or viruses are present on the website.
+
+4. HTTPS/SSL:
+If the website uses HTTPS (HyperText Transfer Protocol Secure), the browser establishes a secure SSL (Secure Socket Layer) connection to the server. This encryption ensures that any data exchanged between the browser and the web server is encrypted, making it difficult for hackers to intercept or steal sensitive information such as login credentials or credit card information.
+
+5. Load-Balancer:
+Large websites like Google often use load-balancers to distribute the incoming traffic across multiple servers. A load-balancer acts as a traffic controller, routing incoming requests to the appropriate server based on factors such as server availability, server response time, and geographic location.
+
+6. Web Server:
+Once the connection is established, the web server receives the request from the browser and sends back the requested content. The web server is responsible for processing the request and generating the appropriate response. For example, when you search for something on Google, the web server queries a database and generates a search results page.
+
+7. Application Server:
+In some cases, the web server may need to interact with an application server to generate the response. The application server may be responsible for processing complex business logic or accessing a database.
+
+8. Database:
+Finally, the web server may need to access a database to retrieve or store information. For example, when you log in to Google, the web server checks your credentials against a database to ensure that you are authorized to access your account.
+
+In conclusion, typing "https://www.google.com" in your browser and pressing Enter triggers a complex series of events that involve DNS requests, TCP/IP connections, firewall checks, HTTPS/SSL encryption, load balancing, web server handling, application server processing, and database queries. Understanding these steps can help you appreciate the complexity and sophistication of the technology that powers the internet.
